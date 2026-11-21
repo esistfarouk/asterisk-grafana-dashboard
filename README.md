@@ -1,3 +1,5 @@
+<img src="assets/logo.png" alt="" width="96" align="right">
+
 # Asterisk / FreePBX Grafana dashboard
 
 [![Grafana dashboard 26099](https://img.shields.io/badge/Grafana-dashboard%2026099-F46800?logo=grafana&logoColor=white)](https://grafana.com/grafana/dashboards/26099)
