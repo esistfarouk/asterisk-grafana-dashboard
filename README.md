@@ -2,7 +2,7 @@
 
 # Asterisk / FreePBX Grafana dashboard
 
-[![Grafana dashboard 26099](https://img.shields.io/badge/Grafana-dashboard%2026099-F46800?logo=grafana&logoColor=white)](https://grafana.com/grafana/dashboards/26099)
+[![Grafana dashboard 26099](https://img.shields.io/badge/Grafana-dashboard%2026099-F46800?logo=grafana&logoColor=white)](https://grafana.com/grafana/dashboards/26099-asterisk-freepbx-overview/)
 
 One Grafana dashboard for Asterisk-based PBXs (plain Asterisk, FreePBX, Issabel, ...): is Asterisk up, how many calls, are the trunks registered, which endpoints are offline, how the host is doing, and what Asterisk is complaining about. Optional rows add queue performance, voice quality and call outcomes if you export those numbers too.
 
@@ -198,7 +198,7 @@ Starting points; tune the thresholds to your traffic.
 
 ## Install
 
-1. Grafana → Dashboards → New → Import → enter the ID **`26099`** and click Load ([grafana.com page](https://grafana.com/grafana/dashboards/26099)), or upload [`dashboard/asterisk-freepbx-overview.json`](dashboard/asterisk-freepbx-overview.json).
+1. Grafana → Dashboards → New → Import → enter the ID **`26099`** and click Load ([grafana.com page](https://grafana.com/grafana/dashboards/26099-asterisk-freepbx-overview/)), or upload [`dashboard/asterisk-freepbx-overview.json`](dashboard/asterisk-freepbx-overview.json).
 2. Pick your Prometheus-compatible and Loki data sources when asked; you can switch them later with the **Metrics** and **Logs** drop-downs at the top.
 3. Pick a PBX.
 
